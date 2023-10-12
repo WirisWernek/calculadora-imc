@@ -1,0 +1,41 @@
+* {
+  font-family: "Jet Brains", monospace;
+  color: rgb(78, 78, 78);
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #b8d8cd;
+}
+
+.alert {
+  display: none;
+}
+
+.col-4 {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.inputAltura {
+  margin-left: 1rem !important;
+}
+
+input[type="number"] {
+  background-color: #e0f1eb !important;
+  border: 1px solid #a6a7a6;
+}
+
+.imagem-fixa {
+  position: fixed;
+  bottom: 0;
+  right: 1rem;
+  background-image: url("./assets/images/Audit-rafiki.png");
+  width: 13rem;
+  height: 13rem;
+  background-size: cover;
+}
